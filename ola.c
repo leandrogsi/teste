@@ -1,6 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    printf("Hello\n");
+   char nome[100];
+   scanf("%s",nome);
+    printf("Hello %s\n", nome);
     return 0;
 }
